@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: benvallack
-      url-base: https://github.com/benvallack
+    - name: schridev
+      url-base: https://github.com/schridev
   projects:
     - name: zmk
-      remote: benvallack
-      revision: mouse-pr
+      remote: schridev
+      revision: main
       import: app/west.yml
   self:
     path: config
