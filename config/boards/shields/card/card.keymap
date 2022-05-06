@@ -126,7 +126,7 @@
                 
        		alpha1 {
 		bindings = <
-		&trans 		&hm LCTL F 	&hm LALT P 	&hm LGUI D		&hm RGUI H 	&hm RALT U    		&hm RCTL Y	&trans  
+		&trans 		&hm LCTL L 	&hm LALT C 	&hm LGUI D		&hm RGUI H 	&hm RALT P    		&hm RCTL Y	&trans  
 		&hl NM1 A	&hl SM2 R	&hl SM1 S	&hl SYS T 	 	&hl SYS N    	&hl SM1 E   		&hl SM2 I 	&hl NM1 O
 		&trans	 	&trans 		&trans 		&trans      	&trans	    &trans 		&trans		&trans
 								&mt LC(LS(LALT)) SPC	 		&alpha2macro
@@ -142,8 +142,8 @@
 		};
        		alpha2 {
 		bindings = <
-		&trans 	 	&kp Q 		&kp W		&kp G	 	 	&kp J    	&kp SQT			&kp L 		&trans
-		&kp Z	 	&kp X 		&kp C		&kp V 			&kp B 		&kp DOT			&kp K		&kp M 
+		&trans 	 	&kp W 		&kp G		&kp Q	 	 	&kp J    	&kp SQT			&kp U 		&trans
+		&kp Z	 	&kp X 		&kp F		&kp V 			&kp B 		&kp DOT			&kp K		&kp M 
 		&trans	 	&trans 		&trans 		&trans      	&trans	    &trans 		&trans		&trans
 								&sk LSHIFT	 		&sl AL2U
 		>;
