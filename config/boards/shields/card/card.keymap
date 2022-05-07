@@ -126,8 +126,8 @@
                 
        		alpha1 {
 		bindings = <
-		&trans 		&hm LCTL H 	&hm LALT C 	&hm LGUI D		&hm RGUI L 	&hm RALT P    		&hm RCTL Y	&trans  
-		&hl NM1 A	&hl SM2 R	&hl SM1 S	&hl SYS T 	 	&hl SYS N    	&hl SM1 E   		&hl SM2 I 	&hl NM1 O
+		&trans 		&hm LCTL R 	&hm LALT D 	&hm LGUI C		&hm RGUI L 	&hm RALT P    		&hm RCTL Y	&trans  
+		&hl NM1 A	&hl SM2 H	&hl SM1 S	&hl SYS T 	 	&hl SYS N    	&hl SM1 E   		&hl SM2 I 	&hl NM1 O
 		&trans	 	&trans 		&trans 		&trans      	&trans	    &trans 		&trans		&trans
 								&mt LC(LS(LALT)) SPC	 		&alpha2macro
 		>;
@@ -142,8 +142,8 @@
 		};
        		alpha2 {
 		bindings = <
-		&trans 	 	&kp W 		&kp X		&kp Q	 	 	&kp J    	&kp SQT			&kp U 		&trans
-		&kp Z	 	&kp M 		&kp F		&kp G 			&kp B 		&kp DOT			&kp K		&kp V 
+		&trans 	 	&kp Z 		&kp X		&kp M	 	 	&kp J    	&kp SQT			&kp U 		&trans
+		&kp Q	 	&kp W 		&kp F		&kp G 			&kp B 		&kp DOT			&kp K		&kp V 
 		&trans	 	&trans 		&trans 		&trans      	&trans	    &trans 		&trans		&trans
 								&sk LSHIFT	 		&sl AL2U
 		>;
@@ -178,7 +178,7 @@
 
 		sys {
 		bindings = <
-		&trans		 	&kp ESC			&kp LC(LS(TAB)) 	&kp RC(TAB)		&td LG(V) LG(C) 	&kp UP 		&td Q BKSP 			&trans
+		&trans		 	&kp ESC			&kp LC(LS(TAB)) 	&kp RC(TAB)		&td LG(V) LG(C) 	&kp UP 		&kp BKSP 			&trans
 		&td LG(GRAVE) TAB	&td HOME DEL		&td END LG(LBKT) 	&kp LG(RBKT)		&td TAB LEFT  		&kp DOWN 	&td  LC(LG(LS(N4))) RIGHT 	&kp RET 
 		&trans	 	&trans 		&trans 		&trans      	&trans	    &trans 		&trans		&trans
 									 		&sr LSHIFT AL1	 		&kp RGUI
